@@ -123,3 +123,38 @@ form textarea{
 iframe{
     width: 100%;
 }
+
+.footer{
+    margin-top: 50px;
+    padding: 20px 0;
+    background: #00681f;
+    color: white;
+}
+.custom-icon {
+    font-size: 32px; /* Ajuste conforme necessário */
+    position: absolute;
+    left: 20px;               /* Ajuste a distância da esquerda */
+    transform: translateY(-50%);  /* Centraliza verticalmente */
+
+}
+.custom-icon2{
+    font-size: 32px; 
+    position: absolute;
+    left: 60px;               
+    transform: translateY(-50%);  
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;   /* Alinha verticalmente */
+    justify-content: center; /* Centraliza tudo horizontalmente */
+    gap: 15px; /* Espaço entre o ícone e o texto */
+    color: white;
+    text-align: center;
+}
+a:visited {
+    color: inherit; /* ou qualquer cor desejada */
+  }
+
+
+  
